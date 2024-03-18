@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    position: fixed;
+    width: 100%;
+   top: 0;
+   background: #dfdddde8;
+}
+.pragraph1{
+    margin-top: 50px;
+}
+#head_nav{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 1px;
+
+}
+#nav{
+    color: red;
+    font-size: 15px;
+    padding: 25px;
+}
+#nav a{
+    color: blue;
+    text-decoration: none;
+    
+}
+.setion1{
+    width: 500px;
+}
+section{
+    float: left;
+    padding: 20px;
+}
+img{
+
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgb(13, 197, 0);
+    margin-left: 20px;
+   
+    border-radius: 5px;
+    
+}
+
+form {
+    justify-content: center;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 1px 5px 1px gray;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#form_heading{
+    color: red;
+    padding-bottom: 15px;
+    padding-left: 130px;
+    font-weight: bold;
+    font-size: x-large;
+}
+form .text1{
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    color: blue;
+}
+
+select{
+    padding: 5px;
+    margin: 10px;
+}
+button{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    justify-content: center;
+    color: white;
+    border: 0;
+    background-color: skyblue;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+button:hover{
+    cursor: pointer;
+    color: blue;
+}
+.gender{
+    display: flex;
+    gap: 4px;
+}
